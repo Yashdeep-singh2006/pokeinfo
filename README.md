@@ -1,3 +1,7 @@
+# About 
+
+This website is created using react class based components and pokeapi
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
