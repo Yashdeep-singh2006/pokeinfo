@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Content from './components/Content';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 export default class App extends Component {
   constructor(props) {

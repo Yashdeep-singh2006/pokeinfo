@@ -5,7 +5,7 @@ export class Footer extends Component {
         return (
             <div className='d-flex justify-content-center mt-5'>
                 <h6>Created using React</h6>
-                <h6><a href='yashdeepsingh2006.vercel.app'>@yashdeepsingh</a></h6>
+                <h6><a href='https://yashdeepsingh2006.vercel.app'>@yashdeepsingh</a></h6>
             </div>
         )
     }
