@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Logo from '../images/Pokeinfo.png'
 
 export class Nav extends Component {
   handleFormSubmit = (event) => {
@@ -12,7 +13,7 @@ export class Nav extends Component {
       <div>
         <nav className="navbar bg-body-tertiary px-lg-5">
           <div className="container-fluid">
-            <a href="/" className="navbar-brand">Pokeinfo</a>
+            <img src={Logo} style={{height: '50px', width: '140px'}} alt='...' />
             <form className="d-flex" role="search" onSubmit={this.handleFormSubmit}>
               <input
                 id="search"
